@@ -78,7 +78,7 @@ public class Demo {
         for(Student s:studs)
             System.out.println();
 
-        Collections.sort(studs);
+        Collections.sort(studs,com);
         for(Student s: studs)
             System.out.println(s);
     }
